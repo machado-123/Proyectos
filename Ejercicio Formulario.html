@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Formulario</title>
+
+    <link rel="stylesheet" href="Ejercicio Formulario.css">
+
+</head>
+
+<body>
+    <form action="#">
+        <h2>Formulario de Inscripciones</h2>
+
+        <label for="nombres">Nombres</label>
+        <input type="text" id="nombres" name="nombres" placeholder="Nombres">
+
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos">
+
+        <br><br>
+
+        <label for="fecha-nacimiento">Fecha de Nacimiento</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento">
+
+        <label for="departamento">Departamento</label>
+        <select name="departamento" id="departamento">
+
+            <option value="#">Seleccionar Departamento</option>
+            <option value="Antioquia">Antioquia</option>
+            <option value="Amazonas">Amazonas</option>
+            <option value="Atlantico">Atlantico</option>
+            <option value="Cundinamarca">Cundinamarca</option>
+            <option value="Chocó">Chocó</option>
+            <option value="San Andres y Providencia">San Andres y Providencia</option>
+
+        </select>
+        
+        <br><br>
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" name="telefono" placeholder="Telefono">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email">
+
+        <br><br>
+
+        <label for="msg">Mensaje</label>
+
+        <br>
+
+        <textarea name="msg" id="msg" cols="76" rows="5" placeholder="Escribe algo..."></textarea>
+
+        <br><br>
+
+        <button type="submit" id="enviar" name="enviar" style="width: 10%;">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>

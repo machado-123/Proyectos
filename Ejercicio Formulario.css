@@ -1,0 +1,54 @@
+*
+{
+    margin: 3px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+form
+
+{
+    width: 50%;
+    border: 1px solid #000000;
+    margin: 10px;
+    padding: 10px;
+}
+
+label
+
+{
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+
+textarea
+
+{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+    width: 95%;
+}
+
+button
+
+{
+    background-color: rgb(217, 252, 240);
+
+}
+
+h2, label, input, textarea, select, option, form
+
+{
+    background-color: aliceblue
+}
+
+h2
+
+{
+    padding: 5px;
+}
+
+
+
